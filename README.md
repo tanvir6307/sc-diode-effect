@@ -42,8 +42,6 @@ Two identical triangular notches (depth d<sub>notch</sub>, base width 1.0 ξ) ar
     ├── sweep_notch_depth.json    # Depth sweep summary data
     ├── sweep_notch_depth.png     # η vs d_notch plot
     ├── vortex_snapshots.png      # |ψ|² maps at Ic (publication figure)
-    ├── snapshot_Ic_plus.h5       # HDF5 solution at Ic+ (baseline)
-    ├── snapshot_Ic_minus.h5      # HDF5 solution at Ic− (baseline)
     │
     ├── applied_field_0.000/      # Per-field-value results
     ├── applied_field_0.020/
@@ -54,8 +52,6 @@ Two identical triangular notches (depth d<sub>notch</sub>, base width 1.0 ξ) ar
     │   ├── results.json          #   Ic+, Ic−, η, full I–V data
     │   ├── iv_curves.png         #   I–V characteristic
     │   ├── geometry.png          #   Mesh for this run
-    │   ├── snapshot_Ic_plus.h5   #   Order-parameter snapshot
-    │   └── snapshot_Ic_minus.h5
     │
     ├── notch_depth_0.200/        # Per-depth-value results
     │   ...                       #   (same structure as field dirs)
