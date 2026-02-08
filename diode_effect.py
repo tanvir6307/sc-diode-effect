@@ -17,12 +17,7 @@ In a symmetric wire, vortices/phase slips nucleate identically for both
 current directions. With asymmetric geometry (e.g., triangular notches),
 vortex entry barriers differ for +I vs -I, creating non-reciprocal transport.
 
-References:
-----------
-- Ando et al., Nature 584, 373 (2020) - Superconducting diode effect
-- Nadeem et al., Nature Reviews Physics 5, 558 (2023) - Review
-
-Author: TDGL Study
+Author: Tanvir Hassan
 Date: February 2026
 """
 
@@ -898,3 +893,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
